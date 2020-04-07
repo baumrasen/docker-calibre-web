@@ -30,6 +30,7 @@ RUN \
 	libsasl2-2 \
 	libxcomposite1 \
 	python3-minimal \
+	mc \
 	unrar && \
  echo "**** install calibre-web ****" && \
  if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
